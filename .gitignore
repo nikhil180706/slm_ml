@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Model Checkpoints & Weights (do not push heavy binary files to git)
+checkpoints/
+*.pt
+*.bin
+*.safetensors
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
+
+# VS Code & IDE settings
+.vscode/
+.idea/
